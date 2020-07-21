@@ -1,0 +1,5 @@
+<view class="poster-wrap" wx:if="{{showCanvas}}">
+  <canvas class="canvas-style" canvas-id="myCanvas"></canvas>
+  <view bindtap="savePoster" class="save-btn">保存到本地</view>
+</view>
+<button bindtap="clickCreate" size="mini" type="primary">点我生成海报</button>
